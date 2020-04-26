@@ -310,4 +310,8 @@ else
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += ro.build.gms_fingerprint=$(PRODUCT_OVERRIDE_GMS_FINGERPRINT)
 endif
 
+# AICP Ad-block
+PRODUCT_PACKAGES += \
+    hosts.aicp_adblock
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
