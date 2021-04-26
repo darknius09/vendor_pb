@@ -314,4 +314,7 @@ endif
 PRODUCT_PACKAGES += \
     hosts.aicp_adblock
 
+# Inherit packages
+$(call inherit-product, vendor/aosp/config/packages.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
