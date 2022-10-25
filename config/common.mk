@@ -127,8 +127,7 @@ PRODUCT_PACKAGES += \
     StitchImage \
     CustomFonts \
     Dialer \
-    Contacts \
-    AboutPhone  
+    Contacts  
 
 # Custom Overlays
 # Settings
