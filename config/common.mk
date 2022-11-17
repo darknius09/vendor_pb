@@ -127,7 +127,8 @@ PRODUCT_PACKAGES += \
     StitchImage \
     CustomFonts \
     Dialer \
-    Contacts  
+    Contacts \
+    SoftAPManager
 
 # Custom Overlays
 # Settings
