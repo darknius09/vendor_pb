@@ -317,4 +317,7 @@ PRODUCT_PACKAGES += \
 # Inherit packages
 $(call inherit-product, vendor/aosp/config/packages.mk)
 
+# Include Lawnchair
+$(call inherit-product, vendor/lawnchair/lawnchair.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
